@@ -1,0 +1,12 @@
+
+.top-nav-collapse {
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+	border-color: #67b0d1;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.75);
+}
