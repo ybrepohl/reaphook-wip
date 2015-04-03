@@ -69,12 +69,18 @@
 		<!-- /.container -->
 	</nav>
 
+	<div id="vignette"></div>
+
 	<!-- Section: intro -->
 	<section id="intro" class="intro">
-		<div id="intro-poster"></div>
-
-		<!-- Section: about -->
-		<section id="about" class="home-section bg-gray shadow-both">
+		<div class="container">
+			<div class="row">
+				<img src="img/poster.png" id="intro-poster" />
+			</div>
+		</div>
+</section>
+			<!-- Section: about -->
+		<section  id="about" class="home-section bg-gray shadow-both">
 			<div class="container">
 				<div class="row">
 					<div class="content">
@@ -86,13 +92,12 @@
 			</div>
 		</section>
 		<!-- /Section: about -->
-
-	</section>
+	
 	<!-- /Section: intro -->
 
 	
 	<!-- Section: characters -->
-	<section id="characters" class="home-section fullpage">
+	<section id="characters" class="home-section fullpage clearfix">
 		<div class="container">
 			<div class="row">
 				<div class="content">
@@ -104,27 +109,27 @@
 				<div class="col-md-12">
 					<ul class="ul-char">
 						<li class="clearfix">
+							<img class="float-right" src="" alt="">
 							<div class="char-info float-left">
 								<h3>James Miller</h3>
 								<p>Lorem ipsum dolor sit amet, reque putent pro ad, consequat constituam an his, agam sadipscing disputationi eu vel. Ex mei novum scripta. Meliore pertinacia ne his, ex porro feugiat mei, ex ferri possim voluptua mea. Quo id probo populo voluptaria. Ne vel diam gubergren, ut debitis omittam pro. </p>
-							</div>
-							<img class="float-right" src="" alt="">
+							</div>	
 						</li>
 
 						<li class="clearfix">
+							<img class="float-left img-responsive" src="img/charc/pan.png" alt="">
 							<div class="char-info float-right">
 								<h3>Pan</h3>
 								<p>Lorem ipsum dolor sit amet, reque putent pro ad, consequat constituam an his, agam sadipscing disputationi eu vel. Ex mei novum scripta. Meliore pertinacia ne his, ex porro feugiat mei, ex ferri possim voluptua mea. Quo id probo populo voluptaria. Ne vel diam gubergren, ut debitis omittam pro. </p>
 							</div>
-							<img class="float-left" src="img/charc/pan.png" alt="">
 						</li>
 
 						<li class="clearfix">
+							<img class="float-right" src="" alt="">
 							<div class="char-info float-left">
 								<h3>Gwendolyn Miller</h3>
 								<p>Lorem ipsum dolor sit amet, reque putent pro ad, consequat constituam an his, agam sadipscing disputationi eu vel. Ex mei novum scripta. Meliore pertinacia ne his, ex porro feugiat mei, ex ferri possim voluptua mea. Quo id probo populo voluptaria. Ne vel diam gubergren, ut debitis omittam pro. </p>
 							</div>
-							<img class="float-right" src="" alt="">
 						</li>
 
 					</ul>
@@ -144,7 +149,7 @@
 			</div>
 
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-12">
 					<ul class="ul-cast">
 						<li class="cast clearfix">
 							<img src="img/cast/daniel-p.jpg" alt="" class="img-circle img-responsive cast-img">
@@ -152,6 +157,14 @@
 								<h4>Daniel Pianezza</h4>
 								<h5>(James Miller)</h5>
 								<p>Daniel began his screen career in grade school doing short films which led to acting in his own movies in high school. As a film production student at Confederation, he managed to appear in several short films between creating his own. Daniel is determined to embrace the challenging role of James.</p>
+							</div>
+						</li>
+						<li class="cast clearfix">
+							<img src="img/cast/maya-g.jpg" alt="" class="img-circle img-responsive cast-img">
+							<div class="cast-info">
+								<h4>Maya Groulx</h4>
+								<h5>(Gwendolyn Miller)</h5>
+								<p>Maya discovered a talent for acting in elementary school musicals. Combined with dance training, this led to a role in Garden City's staging of "Annie". Maya is currently studying drama at the Sanctuary Centre for the Arts. OSP is thrilled to be introducing this young actress to the film world in the pivotal role of Gwendy.</p>
 							</div>
 						</li>
 						<li class="cast clearfix">
@@ -163,34 +176,6 @@
 							</div>
 						</li>
 						<li class="cast clearfix">
-							<img src="img/cast/tesla-s.jpg" alt="" class="img-circle img-responsive cast-img">
-							<div class="cast-info">
-								<h4>Tesla Shaye</h4>
-								<h5>(Sam)</h5>
-								<p>Tesla is a veteran of both stage and screen. Her experiences in short films, little theatre productions, and the Sears Drama Competition have convinced her to pursue a career in acting, preferably on Broadway. Tesla is bringing her comedic drama talents to the role of Sam.</p>
-							</div>
-						</li>
-						<li class="cast clearfix">
-							<img src="img/cast/kelsey-p.jpg" alt="" class="img-circle img-responsive cast-img">
-							<div class="cast-info">
-								<h4>Kelsey Pigden</h4>
-								<h5>(Lenore)</h5>
-								<p>Kelsey began her acting career in grade school doing musicals. Trained at the Niagara Falls School of Drama and having studied with Frank Rossi, Kelsey has enjoyed a wide array of roles over the years. She is excited to undertake the part of the wild child, Lenore.</p>
-							</div>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-6">
-					<ul class="ul-cast">
-						<li class="cast clearfix">
-							<img src="img/cast/maya-g.jpg" alt="" class="img-circle img-responsive cast-img">
-							<div class="cast-info">
-								<h4>Maya Groulx</h4>
-								<h5>(Gwendolyn Miller)</h5>
-								<p>Maya discovered a talent for acting in elementary school musicals. Combined with dance training, this led to a role in Garden City's staging of "Annie". Maya is currently studying drama at the Sanctuary Centre for the Arts. OSP is thrilled to be introducing this young actress to the film world in the pivotal role of Gwendy.</p>
-							</div>
-						</li>
-						<li class="cast clearfix">
 							<img src="img/cast/alexandra-r.jpg" alt="" class="img-circle img-responsive cast-img">
 							<div class="cast-info">
 								<h4>Alexandra Rheaume</h4>
@@ -199,11 +184,27 @@
 							</div>
 						</li>
 						<li class="cast clearfix">
+							<img src="img/cast/tesla-s.jpg" alt="" class="img-circle img-responsive cast-img">
+							<div class="cast-info">
+								<h4>Tesla Shaye</h4>
+								<h5>(Sam)</h5>
+								<p>Tesla is a veteran of both stage and screen. Her experiences in short films, little theatre productions, and the Sears Drama Competition have convinced her to pursue a career in acting, preferably on Broadway. Tesla is bringing her comedic drama talents to the role of Sam.</p>
+							</div>
+						</li>
+						<li class="cast clearfix">
 							<img src="img/cast/garret-k.jpg" alt="" class="img-circle img-responsive cast-img">
 							<div class="cast-info">
 								<h4>Garret Kuchiak</h4>
 								<h5>(Smee)</h5>
 								<p></p>
+							</div>
+						</li>
+						<li class="cast clearfix">
+							<img src="img/cast/kelsey-p.jpg" alt="" class="img-circle img-responsive cast-img">
+							<div class="cast-info">
+								<h4>Kelsey Pigden</h4>
+								<h5>(Lenore)</h5>
+								<p>Kelsey began her acting career in grade school doing musicals. Trained at the Niagara Falls School of Drama and having studied with Frank Rossi, Kelsey has enjoyed a wide array of roles over the years. She is excited to undertake the part of the wild child, Lenore.</p>
 							</div>
 						</li>
 					</ul>
