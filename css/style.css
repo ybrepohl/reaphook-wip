@@ -65,7 +65,7 @@ p.lead {
 }
 
 a {
-	color: #28c3ab;
+	color: gray;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
@@ -74,7 +74,7 @@ a {
 a:hover,
 a:focus {
 	text-decoration: none;
-	color: #176e61;
+	color: #ea5b0c;
 }
 
 .light {
@@ -415,6 +415,37 @@ hr {
 
 
 /* ===========================
+--- Media
+============================ */
+
+.media-class {
+	padding-top: 15px;
+}
+
+.media-img-cont {
+	width: 125px;
+	height: 125px;
+	overflow: hidden;
+	float: left;
+	margin: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	opacity: 0.6;
+}
+
+.media-img-cont:hover {
+	opacity: 1;
+}
+
+.media-img {
+	max-width: 175px;
+	min-height: 125px;
+	height: auto;
+}
+
+
+/* ===========================
 --- Cast
 ============================ */
 
@@ -459,6 +490,21 @@ hr {
 /* ===========================
 --- Contact
 ============================ */
+
+.production-logo {
+	max-width: 200px;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: gray; 
+    -webkit-transition: all .6s ease;
+}
+
+.production-logo:hover {
+	filter: grayscale(0%);
+	    -webkit-filter: grayscale(0%);
+	    filter: none; 
+	    -webkit-transition: all .6s ease;
+}
 
 form#contact-form .form-group label {
 	text-align: left !important;
